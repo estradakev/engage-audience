@@ -1,0 +1,14 @@
+// this is the import style for the page 
+@import url('https://fonts.googleapis.com/css2?family=Playfair&display=swap');
+// this is the import for the headline style
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+// this sets the default font for the whole page
+$font-family-base: "Playfair", serif;
+// this is needed to be able to change the default styles of bootstrap
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
+
+// if you want to change the style of the 'hello' headline it would be here
+// you can remove it to match the rest or you can change it here too
+#greeting{
+	font-family: 'Allura', cursive;
+}
